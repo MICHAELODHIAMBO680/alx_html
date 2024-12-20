@@ -1,0 +1,30 @@
+ /*base.css*/
+ body {
+    font: Aerial,sans-seriff;
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+
+ }
+ 
+ head footer {
+background-color: blueviolet
+color(  green);
+text-align: center;
+padding: 1em 0;
+ }
+ 
+ nav ul {
+    list-style: none;
+    padding: 0;
+ }
+
+ nav ul li {
+display: inline;
+margin: 0 10px;
+ }
+
+ nav ul li a {
+    color: #fff;
+    text-decoration: none;
+ }

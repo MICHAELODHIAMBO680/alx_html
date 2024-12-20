@@ -1,0 +1,26 @@
+/*styles.css*/
+/* Body flexbox */
+body {
+    display: contents;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/*Main Flexbox */
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+
+}
+
+/*Article and Aside Flexbox */
+article {
+    flex: content 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
