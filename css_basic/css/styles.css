@@ -1,0 +1,47 @@
+/* styles.css */
+/*Body Flexbox */
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Main Flexbox */
+main{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+/* Article and Aside Flexbox */
+article{
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+
+/* Additional styles in styles.html */
+header {
+background-color: blue;
+color: white;
+}
+
+footer {
+    background-color: aqua;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+article, aside {
+    padding: 20px;
+    background-color: aqua;
+    margin: 10px;
+    border-radius: 5px;
+}
+}
+

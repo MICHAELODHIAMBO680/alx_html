@@ -1,0 +1,95 @@
+*/ styles.css*/
+body {
+    margin: 0;
+    font-family: source sans prp,sans_serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.banner {
+    background-image: url(banner.jpg);
+    background-size: cover;
+    height:300px;
+    text-align: center;
+    color: white;
+}
+
+.banner {
+    margin-top: 100px;
+    font-size: 3em;
+}
+
+.quote-section {
+    background-color: #f8f8f8;
+    padding: 40px;
+    text-align: center;
+}
+
+.quote {
+    font-style: italic;
+    margin: 0;
+}
+
+.author {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.video-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.video-item  {
+    flex: 1 1 calc(33.333%-40px);
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0)
+}
+ .Membership-section {
+    background-color: #e0e0e0;
+    padding: 40px;
+    text-align: center;
+}
+
+.Membership-plan  {
+    display: inline-block;
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0.1,);
+}
+
+.faq-section {
+    padding: 40px;
+    background-color: #f0f0f0;
+}
+
+.faq-item  {
+    margin-bottom: 20px;
+}
+
+.faq-question  {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.fac-answer   {
+    display: none;
+    padding-top: 10px;
+}
+
+footer  {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
